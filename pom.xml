@@ -7,19 +7,6 @@
 	<version>8.3.3</version>
 	<name>Java Home myweb</name>
 	<url>http://maven.apache.org</url>
-	<build>
-    <plugins>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.8.1</version> <!-- or a newer version -->
-            <configuration>
-                <source>1.8</source>   <!-- or 11, 17 depending on your JDK -->
-                <target>1.8</target>
-            </configuration>
-        </plugin>
-    </plugins>
-	</build>
 	<properties>
 	     <docker.image.prefix>kammana</docker.image.prefix>
 	     <maven.compiler.source>1.8</maven.compiler.source>
